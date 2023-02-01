@@ -46,7 +46,7 @@ const ContactRight = () => {
             setSubject("");
             setMessage("");
             setErrMessage("");
-            event.target.reset();
+            // event.target.reset()
         }
     }
 
