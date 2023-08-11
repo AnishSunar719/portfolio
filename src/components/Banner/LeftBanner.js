@@ -1,12 +1,12 @@
 import React from 'react';
 import { Cursor, useTypewriter } from "react-simple-typewriter";
-import { FaFacebookF, FaLinkedin, FaReact, FaNodeJs } from "react-icons/fa"
-import { SiLinux, SiBootstrap, SiTailwindcss } from "react-icons/si";
+import { FaFacebookF, FaLinkedin, FaReact, FaPython } from "react-icons/fa"
+import { SiLinux, SiWindows, SiTailwindcss } from "react-icons/si";
 
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-        words: ["Student.", "Full Stack Dev.", "Data Scientist.", "Chili Lover", "Otaku"],
+        words: ["Student.", "Full Stack Dev.", "Linux Enthusiastic.", "Chili Lover", "Otaku"],
         loop: true,
         typeSpeed: 40,
         delaySpeed: 2000,
@@ -60,13 +60,13 @@ const LeftBanner = () => {
                             <FaReact />
                         </span>
                         <span className='bannerIcon'>
-                            <FaNodeJs />
+                            <FaPython />
                         </span>
                         <span className='bannerIcon'>
                             <SiLinux />
                         </span>
                         <span className='bannerIcon'>
-                            <SiBootstrap />
+                            <SiWindows />
                         </span>
                         <span className='bannerIcon'>
                             <SiTailwindcss />

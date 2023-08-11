@@ -13,18 +13,18 @@ const Education = () => {
                 <div className='border-l-[6px] border-l-gray-400 border-opacity-40 w-full flex flex-col justify-center gap-10'>
                     <Card level="BE in Computer Engineering"
                         board="Institute of Engineering, TU"
-                        score="3.5/4"
                         institute="IOE Thapthali Campus"
+                        year="2018 - 2023"
                     />
                     <Card level="+2"
                         board="National Examination Board (NEB)"
-                        score="3.3/4"
                         institute="Kathmandu Model College, Bagbazar"
+                        year="2016 - 2018 "
                     />
                     <Card level="SLC"
                         board="National Examination Board (NEB)"
-                        score="3.5/4"
                         institute="Padma Chakra School"
+                        year = "2006 - 2016"
                     />
                 </div>
             </div>

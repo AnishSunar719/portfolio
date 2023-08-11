@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from "../layouts/Layouts";
 import Card from "./Card";
-import { GtkProject, BlogProject, SignLanguageProject, FaceRecognitionProject } from "../../assets/index";
+import { BlogProject, ECommerce, MoviesAPI, Tobiname } from "../../assets/index";
 
 const Project = () => {
   return (
@@ -10,13 +10,10 @@ const Project = () => {
         <Layout title="My Projects" desc="What I have done" />
       </div>
       <div className='grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-3 grid-ros-2 gap-20'>
-        <Card img={GtkProject} title="Gtk Calculator" desc="Gtk is Gnome Toolkit used to make UI for desktop Applications" proj={"gtkmm-3.0"} />
-        <Card img={BlogProject} title="Blog" desc={"A simple blog website where you can add your blogs, edit them or remove them"} proj={"blog-site"} />
-        <Card img={SignLanguageProject} title={"NSL Reconginzer"} desc="Nepali Sign Language (NSL) can predict the casted signs
-            in word level in real time" proj={""}/>
-        <Card img={FaceRecognitionProject} title={"Face Recognizer"} desc="The system recognizes the person's face and identify them.
-        using Viola Jones Algorithm" proj={""} />
-
+        <Card img={ECommerce} title="Ecommerce site" desc="An E-commerce site using React, React Redux and Tailwind." proj={"E-commerce-Website"} />
+        <Card img={MoviesAPI} title="Movies Info site" desc={"An ImdB like site using OmdB api."} proj={"movies-api"} />
+        <Card img={Tobiname} title={"Anime Streaming site"} desc="An anime streaming site using riimuru's gogoanime api" proj={"tobiname"}/>
+        <Card img={BlogProject} title={"Blog site"} desc="A blog site using Django framework" proj={"django-blog"} />
       </div>
     </section>
   )

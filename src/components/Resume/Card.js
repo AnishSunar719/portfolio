@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Card = ({ level, board, score, institute }) => {
+const Card = ({ level, board, year, institute }) => {
     return (
         <div className='flex items-center group'>
             <div className='w-10 h-[6px] bgOpacity mt-16 relative'>
@@ -23,7 +23,7 @@ const Card = ({ level, board, score, institute }) => {
                     </div>
                 </div>
                 <div>
-                    <span className='font-bold text-white bg-opacity-70 p-3 bg-designColor rounded-lg'>{score}</span>
+                    <span className='font-bold text-white bg-opacity-70 p-3 bg-designColor rounded-lg'>{year}</span>
                 </div>
             </div>
 

@@ -12,43 +12,23 @@ const Skills = () => {
                     </div>
                     <div className='mb-5'>
                         <p className={'uppercase text-sm font-medium'}>kdenlive</p>
-                        <span className={`w-full h-2 inline-flex bgOpacity rounded-xl`}>
-                            <span className={`w-[85%] h-full bg-gradient-to-r from-blue-600 via-purple-400 to-red-600 rounded-xl relative`}>
-                                <span className='absolute -top-8 right-0'>85%</span>
-                            </span>
-                        </span>
+                        
                     </div>
                     <div className='mb-5'>
                         <p className={'uppercase text-sm font-medium'}>Gimp</p>
-                        <span className={`w-full h-2 inline-flex bgOpacity rounded-xl`}>
-                            <span className={`w-[80%] h-full bg-gradient-to-r from-blue-600 via-purple-400 to-red-600 rounded-xl relative`}>
-                                <span className='absolute -top-8 right-0'>80%</span>
-                            </span>
-                        </span>
+                        
                     </div>
                     <div className='mb-5'>
                         <p className={'uppercase text-sm font-medium'}>shotcut</p>
-                        <span className={`w-full h-2 inline-flex bgOpacity rounded-xl`}>
-                            <span className={`w-[90%] h-full bg-gradient-to-r from-blue-600 via-purple-400 to-red-600 rounded-xl relative`}>
-                                <span className='absolute -top-8 right-0'>90%</span>
-                            </span>
-                        </span>
+                        
                     </div>
                     <div className='mb-5'>
                         <p className={'uppercase text-sm font-medium'}>blender</p>
-                        <span className={`w-full h-2 inline-flex bgOpacity rounded-xl`}>
-                            <span className={`w-[70%] h-full bg-gradient-to-r from-blue-600 via-purple-400 to-red-600 rounded-xl relative`}>
-                                <span className='absolute -top-8 right-0'>70%</span>
-                            </span>
-                        </span>
+                       
                     </div>
                     <div className=''>
-                        <p className={'uppercase text-sm font-medium'}>design</p>
-                        <span className={`w-full h-2 inline-flex bgOpacity rounded-xl`}>
-                            <span className={`w-[85%] h-full bg-gradient-to-r from-blue-600 via-purple-400 to-red-600 rounded-xl relative`}>
-                                <span className='absolute -top-8 right-0'>85%</span>
-                            </span>
-                        </span>
+                        <p className={'uppercase text-sm font-medium'}>figma</p>
+                        
                     </div>
                 </div>
                 <div >
@@ -58,43 +38,23 @@ const Skills = () => {
                     </div>
                     <div className='mb-5'>
                         <p className={'uppercase text-sm font-medium'}>html</p>
-                        <span className={`w-full h-2 inline-flex bgOpacity rounded-xl`}>
-                            <span className={`w-[85%] h-full bg-gradient-to-r from-blue-600 via-purple-400 to-red-600 rounded-xl relative`}>
-                                <span className='absolute -top-8 right-0'>85%</span>
-                            </span>
-                        </span>
+                        
                     </div>
                     <div className='mb-5'>
                         <p className={'uppercase text-sm font-medium'}>css</p>
-                        <span className={`w-full h-2 inline-flex bgOpacity rounded-xl`}>
-                            <span className={`w-[80%] h-full bg-gradient-to-r from-blue-600 via-purple-400 to-red-600 rounded-xl relative`}>
-                                <span className='absolute -top-8 right-0'>80%</span>
-                            </span>
-                        </span>
+                        
                     </div>
                     <div className='mb-5'>
                         <p className={'uppercase text-sm font-medium'}>javascript</p>
-                        <span className={`w-full h-2 inline-flex bgOpacity rounded-xl`}>
-                            <span className={`w-[80%] h-full bg-gradient-to-r from-blue-600 via-purple-400 to-red-600 rounded-xl relative`}>
-                                <span className='absolute -top-8 right-0'>80%</span>
-                            </span>
-                        </span>
+                       
                     </div>
                     <div className='mb-5'>
                         <p className={'uppercase text-sm font-medium'}>react</p>
-                        <span className={`w-full h-2 inline-flex bgOpacity rounded-xl`}>
-                            <span className={`w-[75%] h-full bg-gradient-to-r from-blue-600 via-purple-400 to-red-600 rounded-xl relative`}>
-                                <span className='absolute -top-8 right-0'>75%</span>
-                            </span>
-                        </span>
+                        
                     </div>
                     <div className=''>
                         <p className={'uppercase text-sm font-medium'}>python</p>
-                        <span className={`w-full h-2 inline-flex bgOpacity rounded-xl`}>
-                            <span className={`w-[90%] h-full bg-gradient-to-r from-blue-600 via-purple-400 to-red-600 rounded-xl relative`}>
-                                <span className='absolute -top-8 right-0'>90%</span>
-                            </span>
-                        </span>
+                        
                     </div>
                 </div>
             </div>

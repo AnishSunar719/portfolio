@@ -2,7 +2,6 @@ import React from 'react';
 import Feature from '../layouts/Layouts';
 import Card from './Card';
 import { FaBookReader, FaFirefoxBrowser } from "react-icons/fa"
-import { SiTensorflow } from "react-icons/si";
 import { GrArchlinux, } from "react-icons/gr";
 import { GiChiliPepper, GiJapan } from "react-icons/gi";
 const Features = () => {
@@ -13,16 +12,16 @@ const Features = () => {
       </div>
       <div className="mt-6 grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-3 grid-rows-2 gap-12 md:gap-16 lgl:gap-24">
         <Card
-          title="Student"
-          desc="I'm a 4th year student of
-            IOE, Thapathali Campus. I'm studing Bachelor
-            in Computer Engineering. I joined in 2018."
+          title="Learner"
+          desc="As from computer engineering
+          background, my interests are in softwares and hardwares. I go by the documentations of each
+          framework and hardware descriptions that I use for my projects."
           icon={<FaBookReader />}
         />
         <Card
           title="Web Development"
-          desc="I build different websites using different frameworks like React, Node, Express.
-          I prefer Backend to Frontend"
+          desc="I build different websites using different frameworks like React, React-Native, Django and DjangoRESTFramework
+          ."
           icon={<FaFirefoxBrowser />}
         />
         <Card
@@ -38,12 +37,6 @@ const Features = () => {
           desc="I love chillies and hot food. Chillies make food taste good
           I dare you to challenge me"
           icon={<GiChiliPepper />}
-        />
-        <Card
-          title="Data Scientist"
-          desc="I make and test different sets of data for ML related works. Training different
-          models, testing them and using them in my daily life is my passion."
-          icon={<SiTensorflow />}
         />
         <Card
           title="Otaku"
