@@ -6,7 +6,7 @@ import { SiLinux, SiWindows, SiTailwindcss } from "react-icons/si";
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-        words: ["Student.", "Full Stack Dev.", "Linux Enthusiastic.", "Chili Lover", "Otaku"],
+        words: ["Student.", "Full Stack Dev.", "Linux Enthusiast.", "Chili Lover", "Otaku"],
         loop: true,
         typeSpeed: 40,
         delaySpeed: 2000,
