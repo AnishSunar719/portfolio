@@ -22,13 +22,13 @@ const Card = ({ level, board, year, institute }) => {
           <div>
             <span className="text-base">{institute}</span>
           </div>
-          <div className="mt-3 lg:max-2xl:hidden">
-            <span className="font-bold text-white bg-designColor bg-opacity-70 p-1 bg-gray-900 rounded-lg">
+          <div className="mt-3 md:max-2xl:hidden">
+            <span className="font-bold text-white bg-designColor bg-opacity-70 p-2 bg-gray-900 rounded-lg">
               {year}
             </span>
           </div>
         </div>
-        <div className="min-[100px]:max-lg:hidden">
+        <div className="min-[100px]:max-md:hidden">
           <span className="font-bold text-white bg-designColor bg-opacity-70 p-2 bg-gray-900 rounded-lg">
             {year}
           </span>
